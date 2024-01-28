@@ -249,7 +249,7 @@ class BreachMerger:
 @click.option(
     "--compilation",
     type=click.Path(exists=True),
-    help="Loaction of your breach compilation or compilation of many breach otherwise make it in the parent directory you are in",
+    help="Loaction of your breach compilation or COMB make it in the parent directory you are in",
     default="."
 )
 @click.option(
